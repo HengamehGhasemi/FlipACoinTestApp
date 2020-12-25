@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
                 motionLayout.progress = 0f
                 coin.isClickable = true
             }
-
         }
     }
 }
