@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FlipCoin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/material_dark_yellow</item>
+        <item name="colorPrimaryVariant">@color/material_yellow</item>
+        <item name="colorOnPrimary">@color/material_very_dark_yellow</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/material_secondary_dark_yellow</item>
+        <item name="colorSecondaryVariant">@color/material_secondary_yellow</item>
+        <item name="colorOnSecondary">@color/material_secondary_very_dark_yellow</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
