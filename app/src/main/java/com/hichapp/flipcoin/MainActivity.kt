@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             CoroutineScope(Dispatchers.Main).launch{
                 number.visibility = View.VISIBLE
                 flip(it)
-                delay(500)
+                delay(700)
                 number.text = getRandomNumber().toString()
                 showNumber(this@MainActivity, number)
                 delay(1000)
