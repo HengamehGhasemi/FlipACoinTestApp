@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity() {
             CoroutineScope(Dispatchers.Main).launch{
                 number.visibility = View.VISIBLE
                 flip(it)
-                delay(1500)
+                delay(500)
                 number.text = getRandomNumber().toString()
                 showNumber(this@MainActivity, number)
-                delay(1500)
+                delay(1000)
                 disposeNumber(motionLayout)
                 delay(1000)
                 number.text = ""
