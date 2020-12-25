@@ -9,8 +9,8 @@
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/img_coin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:padding="@dimen/margin_medium"
         android:src="@drawable/coin"
         app:layout_constraintBottom_toBottomOf="parent"
